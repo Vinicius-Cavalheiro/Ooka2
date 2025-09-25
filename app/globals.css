@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Ajustando o tamanho da bandeira */
+.react-phone-input-2 .flag-dropdown {
+    width: 20px !important; 
+    height: 20px !important; 
+  }
+  
+  .react-phone-input-2 .flag-dropdown img {
+    width: 100% !important; 
+    height: 100% !important; 
+  }
+  
+.react-phone-input-2 .PhoneInputInput {
+    font-size: 1.2rem;  
+    letter-spacing: 0.05em;  
+  }
+  .error-message {
+    background-color: #fdecea; /* Fundo vermelho claro */
+    color: #d93025; /* Vermelho vibrante para o texto */
+    border: 1px solid #f5c6cb; /* Borda suavemente avermelhada */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 10px 15px; /* Espaçamento interno */
+    font-size: 0.875rem; /* Tamanho da fonte */
+    margin-bottom: 16px; /* Espaçamento inferior */
+    text-align: center; /* Centraliza o texto */
+    font-weight: 500; /* Texto um pouco mais forte */
+  }
+  
